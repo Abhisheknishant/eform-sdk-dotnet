@@ -3,6 +3,9 @@ language: csharp
 solution: eformSDK.sln
 mono: none
 dotnet: 2.2
+arch:
+    - amd64
+    - arm64
 branches:
   only:
     - master
